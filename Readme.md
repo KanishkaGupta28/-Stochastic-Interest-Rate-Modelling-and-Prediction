@@ -175,9 +175,10 @@ The Two-Factor CIR achieves **out-of-sample R² ≈ 0.865**, passing the verific
 
 ---
 
+ 
 ## How to Run
 
-1. Click the **"Open in Colab"** badge at the top of this README
+1. Click the **"Open in Colab"** badge at the top of this README or **[click here](https://colab.research.google.com/drive/1MlwKQL8p7cgoEiQtFu3qM8H11QbRKH-i?usp=sharing)** to open the notebook directly
 2. Go to **Runtime → Run all**
 3. When Cell 5 runs, a **"Choose Files"** button appears — upload:
    - `train_data.csv`
@@ -186,9 +187,7 @@ The Two-Factor CIR achieves **out-of-sample R² ≈ 0.865**, passing the verific
 4. The notebook completes fully in **3–5 minutes** on a standard Colab CPU
 
 > No additional `pip install` needed — all dependencies (`numpy`, `pandas`, `scipy`, `scikit-learn`, `matplotlib`) are pre-installed in Google Colab.
-
 ---
-
 ## Critical Analysis Summary
 
 ### Where the Model Succeeds
