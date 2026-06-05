@@ -121,9 +121,9 @@ Weights are higher for 6M–2Y because these are the test-set prediction maturit
 
 | Method | Optimises | Aligns With Prediction Task? |
 |---|---|---|
-| Time-series MLE | Likelihood of $r_t \to r_{t+dt}$ transitions | ❌ No — targets dynamics, not curve shape |
-| OLS on SDE | Regression of $\Delta r_t$ on $r_t$ | ❌ No — same issue, often gives negative $\kappa$ |
-| **Cross-section MLE (used)** | Yield curve reconstruction error | ✅ Yes — directly minimises the evaluation objective |
+| Time-series MLE | Likelihood of $r_t \to r_{t+dt}$ transitions |  No — targets dynamics, not curve shape |
+| OLS on SDE | Regression of $\Delta r_t$ on $r_t$ |  No — same issue, often gives negative $\kappa$ |
+| **Cross-section MLE (used)** | Yield curve reconstruction error |  Yes — directly minimises the evaluation objective |
 
 ### Optimisation
 
