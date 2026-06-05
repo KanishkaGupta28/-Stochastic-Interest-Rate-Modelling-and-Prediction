@@ -37,7 +37,8 @@ This project implements, calibrates, and extends the **Cox-Ingersoll-Ross (CIR)*
 ## Repository Structure
 
 ```text
-CIR-Interest-Rate-Modelling/
+ Stochastic Interest Rate Modelling and
+Prediction/
 ├── README.md                           # Project documentation
 └── Finance_Club_23118037_Kanishka_Gupta.ipynb   # Complete CIR Interest Rate Modelling notebook
 
